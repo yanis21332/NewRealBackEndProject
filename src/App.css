@@ -1,0 +1,106 @@
+/*Base*/
+body{
+  margin: 38px auto;
+  padding: 0;
+  width: 90%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header .LogoAndSearchBar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 52.5vh;
+}
+header .PhotoAdder .PhotoAdderButton{
+  background: #3DB46D;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 26px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.35s;
+}
+header .PhotoAdder .PhotoAdderButton:hover{
+  cursor: pointer;
+  opacity: 0.75;
+}
+header .LogoAndSearchBar input{
+  outline: none;
+  border-radius: 11px;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+  width: 100%;
+  height: 100%;
+  padding-left: 52px;
+  min-width: 300px;
+  transition: 0.35s;
+}
+header .LogoAndSearchBar input:focus{
+  border: 1px solid black;
+}
+header .LogoAndSearchBar .ContainerOfInput img{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header .LogoAndSearchBar .ContainerOfInput{
+  position: relative;
+  left: 20px;
+}
+.CardImage{
+  background-color: black;
+  position: relative;
+  width: 250px;
+  height: 100px;
+  margin: 25px 0 13px 0;
+  border-radius: 16px;
+  transition: 0.35s;
+}
+.CardImage:hover{
+  cursor: pointer;
+}
+.CardImage .DeleteButton{
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  border-radius: 2vh;
+  border: 1px solid #EB5757;
+  color: #EB5757;
+  background: #ffffff00;
+  outline: none;
+  padding: 3px 11px;
+}
+.CardImage p{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section .container{
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.CardImage .DarkerZero{
+  opacity: 0;
+}
+.CardImage .DarkerTwo{
+  opacity: 0.3;
+}
+.Darker{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-radius: 16px;
+}
+.none {
+  display: none;
+}
